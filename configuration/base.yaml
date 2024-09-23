@@ -1,0 +1,25 @@
+application:
+  host: "127.0.0.1"
+  port: 3000
+  debug: true
+  name: "Wheather App"
+  version: "1.0.0"
+  item_capacity: 10
+
+database:
+  name: "data.db"
+  max_connections: 5
+
+wheather_api:
+  rapidapi_key: "b17c9b7989msh1c0b78afc9b3a49p1b4599jsn589d9551cafa"
+  rapidapi_host: "weatherapi-com.p.rapidapi.com"
+  weather_api_url: "https://weatherapi-com.p.rapidapi.com"
+
+jwt:
+  secret: "aGVsbG8gd29ybGR+Cg=="
+  expire_min: 1440
+
+
+tls:
+  cert_path: "configuration/certs/cert.pem"
+  key_path: "configuration/certs/key.pem"
