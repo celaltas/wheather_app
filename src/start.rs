@@ -72,7 +72,7 @@ fn build_app(
     let api_service =
         OpenApiService::new(endpoints, &conf.application.name, &conf.application.version).server(
             format!(
-                "https://{}:{}/",
+                "https://{}:{}/api",
                 conf.application.host, conf.application.port
             ),
         );
