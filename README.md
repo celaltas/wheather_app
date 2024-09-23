@@ -29,15 +29,13 @@ Brief description of the project and its purpose.
 - **Integration Tests**:  
   Integration tests are written to verify that all components of the application work together correctly. These tests run on an independent application and database.
 
-## Getting Started
 
-### Prerequisites
-List any prerequisites or dependencies needed to run the application.
 
 ### Installation
 There is a Makefile to build for production or development environments. Run the application with:
 
 ```bash
+make help
 cargo run --release  # For production
 cargo run            # For development
 
